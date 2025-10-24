@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import productsData from '../../../products-complete.json';
 import HeroSlider from '../HeroSlider';
 import FeaturesSection from '../sections/FeaturesSection';
@@ -13,7 +13,6 @@ import QualityPromiseSection from '../sections/QualityPromiseSection';
 import NewsletterSection from '../sections/NewsletterSection';
 import ContactInfoSection from '../sections/ContactInfoSection';
 import FinalCTASection from '../sections/FinalCTASection';
-import { Suspense } from 'react';
 
 interface Category {
   id: string;

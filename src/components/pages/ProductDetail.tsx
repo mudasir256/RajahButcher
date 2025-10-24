@@ -7,9 +7,10 @@ import { useCart } from '../../contexts/CartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import productsData from '../../../products.json';
+import productsData from '../../../products-complete.json';
 
 interface Product {
+  id: string;
   category: string;
   name: string;
   slug: string;
@@ -24,12 +25,15 @@ interface Product {
   allergens?: string[];
   min_order_weight: string;
   featured: boolean;
+  is_active: boolean;
   variants: Array<{
+    id: string;
     weight: string;
     cut: string | null;
     marinade: string;
     stock: number;
     sku: string;
+    price_modifier: number;
   }>;
 }
 
