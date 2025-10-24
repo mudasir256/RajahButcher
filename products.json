@@ -1,0 +1,761 @@
+{
+  "categories": [
+    {
+      "id": "lamb",
+      "name": "Lamb",
+      "slug": "lamb",
+      "description": "Premium halal lamb cuts",
+      "display_order": 1,
+      "image_url": "https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg"
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "slug": "chicken",
+      "description": "Fresh halal chicken",
+      "display_order": 2,
+      "image_url": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg"
+    },
+    {
+      "id": "beef",
+      "name": "Beef",
+      "slug": "beef",
+      "description": "Quality halal beef",
+      "display_order": 3,
+      "image_url": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg"
+    },
+    {
+      "id": "mutton",
+      "name": "Mutton",
+      "slug": "mutton",
+      "description": "Traditional mutton cuts",
+      "display_order": 4,
+      "image_url": "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg"
+    },
+    {
+      "id": "bbq-packs",
+      "name": "BBQ Packs",
+      "slug": "bbq-packs",
+      "description": "Ready-to-grill packs",
+      "display_order": 5,
+      "image_url": "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg"
+    },
+    {
+      "id": "ready-to-cook",
+      "name": "Ready-to-Cook",
+      "slug": "ready-to-cook",
+      "description": "Marinated & prepared",
+      "display_order": 6,
+      "image_url": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg"
+    },
+    {
+      "id": "spices-masalas",
+      "name": "Spices & Masalas",
+      "slug": "spices-masalas",
+      "description": "Authentic spices",
+      "display_order": 7,
+      "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg"
+    },
+    {
+      "id": "rice-staples",
+      "name": "Rice & Staples",
+      "slug": "rice-staples",
+      "description": "Basmati rice, lentils & more",
+      "display_order": 8,
+      "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg"
+    },
+    {
+      "id": "frozen-foods",
+      "name": "Frozen Foods",
+      "slug": "frozen-foods",
+      "description": "Frozen snacks & items",
+      "display_order": 9,
+      "image_url": "https://images.pexels.com/photos/6529004/pexels-photo-6529004.jpeg"
+    },
+    {
+      "id": "oriental-groceries",
+      "name": "Oriental Groceries",
+      "slug": "oriental-groceries",
+      "description": "Asian essentials",
+      "display_order": 10,
+      "image_url": "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg"
+    }
+  ],
+  "products": [
+    {
+      "category": "lamb",
+      "name": "Lamb Steaks",
+      "slug": "lamb-steaks",
+      "description": "Thick, juicy, and packed with flavour. Cooks fast on pan, grill, or BBQ. Perfect with spice rubs, marinades, or classic salt & pepper.",
+      "cooking_tips": [
+        "Pan-seared with garlic & butter",
+        "Tandoori on the BBQ",
+        "Serve with mash, rice, or naan"
+      ],
+      "price_per_kg": 17.99,
+      "images": [
+        "https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Fresh Cut Daily", "BBQ Favourite"],
+      "min_order_weight": "500g",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 24,
+          "sku": "LS-500-STD-NONE"
+        },
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "Tandoori",
+          "stock": 20,
+          "sku": "LS-500-STD-TAND"
+        },
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "Garlic & Herb",
+          "stock": 18,
+          "sku": "LS-500-STD-GARH"
+        },
+        {
+          "weight": "500g",
+          "cut": "Thick Cut",
+          "marinade": "None",
+          "stock": 20,
+          "sku": "LS-500-THK-NONE"
+        },
+        {
+          "weight": "750g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 18,
+          "sku": "LS-750-STD-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 20,
+          "sku": "LS-1KG-STD-NONE"
+        },
+        {
+          "weight": "1.5kg",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 12,
+          "sku": "LS-1.5-STD-NONE"
+        }
+      ]
+    },
+    {
+      "category": "lamb",
+      "name": "Lamb Chops",
+      "slug": "lamb-chops",
+      "description": "Tender lamb chops perfect for grilling. Cut fresh daily with expert precision.",
+      "cooking_tips": [
+        "Grill on high heat for 3-4 minutes per side",
+        "Season with rosemary and garlic",
+        "Let rest before serving"
+      ],
+      "price_per_kg": 19.99,
+      "images": [
+        "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Fresh Cut Daily", "Premium Cut"],
+      "min_order_weight": "500g",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 15,
+          "sku": "LC-500-STD-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 12,
+          "sku": "LC-1KG-STD-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "Tandoori",
+          "stock": 10,
+          "sku": "LC-1KG-STD-TAND"
+        }
+      ]
+    },
+    {
+      "category": "lamb",
+      "name": "Lamb Leg",
+      "slug": "lamb-leg",
+      "description": "Whole lamb leg perfect for roasting. Tender and flavorful with minimal fat.",
+      "cooking_tips": [
+        "Score the surface and rub with herbs",
+        "Roast at 180°C for 20 minutes per 500g",
+        "Rest for 15 minutes before carving"
+      ],
+      "price_per_kg": 15.99,
+      "images": [
+        "https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg",
+        "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Premium Cut", "Roasting Special"],
+      "min_order_weight": "1kg",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "1kg",
+          "cut": "Whole",
+          "marinade": "None",
+          "stock": 8,
+          "sku": "LL-1KG-WHOLE-NONE"
+        },
+        {
+          "weight": "1.5kg",
+          "cut": "Whole",
+          "marinade": "None",
+          "stock": 6,
+          "sku": "LL-1.5KG-WHOLE-NONE"
+        },
+        {
+          "weight": "2kg",
+          "cut": "Whole",
+          "marinade": "None",
+          "stock": 4,
+          "sku": "LL-2KG-WHOLE-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Boneless",
+          "marinade": "None",
+          "stock": 10,
+          "sku": "LL-1KG-BONELESS-NONE"
+        }
+      ]
+    },
+    {
+      "category": "lamb",
+      "name": "Lamb Ribs",
+      "slug": "lamb-ribs",
+      "description": "Meaty lamb ribs perfect for BBQ and grilling.",
+      "cooking_tips": [
+        "Marinate overnight for best flavor",
+        "Grill on medium heat",
+        "Brush with BBQ sauce"
+      ],
+      "price_per_kg": 18.99,
+      "images": [
+        "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["BBQ Favourite", "Meaty"],
+      "min_order_weight": "500g",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 15,
+          "sku": "LR-500-STD-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "BBQ",
+          "stock": 12,
+          "sku": "LR-1KG-STD-BBQ"
+        }
+      ]
+    },
+    {
+      "category": "chicken",
+      "name": "Chicken Breast",
+      "slug": "chicken-breast",
+      "description": "Lean, tender chicken breast fillets. Versatile for any recipe.",
+      "cooking_tips": [
+        "Pan-fry with herbs",
+        "Grill for salads",
+        "Perfect for curries"
+      ],
+      "price_per_kg": 8.99,
+      "images": [
+        "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Fresh Cut Daily"],
+      "min_order_weight": "500g",
+      "featured": false,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 30,
+          "sku": "CB-500-STD-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 25,
+          "sku": "CB-1KG-STD-NONE"
+        }
+      ]
+    },
+    {
+      "category": "chicken",
+      "name": "Chicken Wings",
+      "slug": "chicken-wings",
+      "description": "Fresh chicken wings perfect for BBQ and spicy recipes.",
+      "cooking_tips": [
+        "Marinate in spices",
+        "Grill until crispy",
+        "Toss in your favorite sauce"
+      ],
+      "price_per_kg": 6.99,
+      "images": [
+        "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["BBQ Ready", "Spicy"],
+      "min_order_weight": "500g",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 25,
+          "sku": "CW-500-STD-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "Spicy",
+          "stock": 20,
+          "sku": "CW-1KG-STD-SPICY"
+        }
+      ]
+    },
+    {
+      "category": "chicken",
+      "name": "Whole Chicken",
+      "slug": "whole-chicken",
+      "description": "Fresh whole chicken perfect for roasting and traditional dishes.",
+      "cooking_tips": [
+        "Stuff with herbs and spices",
+        "Roast at 200°C for 1.5 hours",
+        "Baste every 30 minutes"
+      ],
+      "price_per_kg": 5.99,
+      "images": [
+        "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Whole Bird", "Roasting"],
+      "min_order_weight": "1kg",
+      "featured": false,
+      "variants": [
+        {
+          "weight": "1kg",
+          "cut": "Whole",
+          "marinade": "None",
+          "stock": 15,
+          "sku": "WC-1KG-WHOLE-NONE"
+        },
+        {
+          "weight": "1.5kg",
+          "cut": "Whole",
+          "marinade": "None",
+          "stock": 12,
+          "sku": "WC-1.5KG-WHOLE-NONE"
+        }
+      ]
+    },
+    {
+      "category": "beef",
+      "name": "Beef Mince",
+      "slug": "beef-mince",
+      "description": "Premium quality halal beef mince. Perfect for burgers, keema, and more.",
+      "cooking_tips": [
+        "Brown before adding to curry",
+        "Make fresh burgers",
+        "Add to pasta sauces"
+      ],
+      "price_per_kg": 10.99,
+      "images": [
+        "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Fresh Cut Daily"],
+      "min_order_weight": "500g",
+      "featured": false,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 40,
+          "sku": "BM-500-STD-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 35,
+          "sku": "BM-1KG-STD-NONE"
+        }
+      ]
+    },
+    {
+      "category": "beef",
+      "name": "Beef Steaks",
+      "slug": "beef-steaks",
+      "description": "Premium beef steaks cut fresh daily.",
+      "cooking_tips": [
+        "Season generously",
+        "Cook on high heat",
+        "Let rest before serving"
+      ],
+      "price_per_kg": 22.99,
+      "images": [
+        "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Premium Cut", "Fresh Daily"],
+      "min_order_weight": "500g",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 15,
+          "sku": "BS-500-STD-NONE"
+        },
+        {
+          "weight": "500g",
+          "cut": "Thick Cut",
+          "marinade": "None",
+          "stock": 12,
+          "sku": "BS-500-THICK-NONE"
+        },
+        {
+          "weight": "750g",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 10,
+          "sku": "BS-750-STD-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "None",
+          "stock": 8,
+          "sku": "BS-1KG-STD-NONE"
+        }
+      ]
+    },
+    {
+      "category": "mutton",
+      "name": "Mutton Curry Cut",
+      "slug": "mutton-curry-cut",
+      "description": "Traditional mutton cuts perfect for curries and biryani.",
+      "cooking_tips": [
+        "Marinate with yogurt and spices",
+        "Slow cook for 2-3 hours",
+        "Perfect for traditional dishes"
+      ],
+      "price_per_kg": 13.99,
+      "images": [
+        "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Traditional", "Curry Cut"],
+      "min_order_weight": "500g",
+      "featured": false,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Curry Cut",
+          "marinade": "None",
+          "stock": 20,
+          "sku": "MC-500-CURRY-NONE"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Curry Cut",
+          "marinade": "None",
+          "stock": 15,
+          "sku": "MC-1KG-CURRY-NONE"
+        }
+      ]
+    },
+    {
+      "category": "bbq-packs",
+      "name": "Family BBQ Pack",
+      "slug": "family-bbq-pack",
+      "description": "Complete BBQ selection: lamb steaks, chicken wings, beef kebabs. Feeds 4-6 people.",
+      "cooking_tips": [
+        "Preheat grill to medium-high",
+        "Marinate for 2 hours for best results",
+        "Cook kebabs for 10-12 minutes"
+      ],
+      "price_per_kg": 22.50,
+      "images": [
+        "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Family Pack", "BBQ Ready"],
+      "min_order_weight": "2kg",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "2kg",
+          "cut": "Mixed",
+          "marinade": "BBQ",
+          "stock": 10,
+          "sku": "FBP-2KG-MIXED-BBQ"
+        },
+        {
+          "weight": "3kg",
+          "cut": "Mixed",
+          "marinade": "BBQ",
+          "stock": 8,
+          "sku": "FBP-3KG-MIXED-BBQ"
+        }
+      ]
+    },
+    {
+      "category": "ready-to-cook",
+      "name": "Tandoori Chicken",
+      "slug": "tandoori-chicken",
+      "description": "Pre-marinated tandoori chicken ready for cooking.",
+      "cooking_tips": [
+        "Cook in oven at 200°C",
+        "Grill for charred effect",
+        "Serve with mint chutney"
+      ],
+      "price_per_kg": 9.99,
+      "images": [
+        "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Pre-marinated", "Tandoori"],
+      "min_order_weight": "500g",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "Tandoori",
+          "stock": 20,
+          "sku": "TC-500-STD-TAND"
+        },
+        {
+          "weight": "1kg",
+          "cut": "Standard",
+          "marinade": "Tandoori",
+          "stock": 15,
+          "sku": "TC-1KG-STD-TAND"
+        },
+        {
+          "weight": "500g",
+          "cut": "Standard",
+          "marinade": "Extra Spicy",
+          "stock": 12,
+          "sku": "TC-500-STD-SPICY"
+        }
+      ]
+    },
+    {
+      "category": "spices-masalas",
+      "name": "Garam Masala",
+      "slug": "garam-masala",
+      "description": "Authentic garam masala blend for curries and biryani.",
+      "cooking_tips": [
+        "Add at the end of cooking",
+        "Store in airtight container",
+        "Use sparingly for best flavor"
+      ],
+      "price_per_kg": 49.90,
+      "images": [
+        "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "India",
+      "badges": ["Authentic", "Premium Blend"],
+      "min_order_weight": "100g",
+      "featured": false,
+      "variants": [
+        {
+          "weight": "100g",
+          "cut": null,
+          "marinade": "None",
+          "stock": 50,
+          "sku": "GM-100G-NONE-NONE"
+        },
+        {
+          "weight": "250g",
+          "cut": null,
+          "marinade": "None",
+          "stock": 30,
+          "sku": "GM-250G-NONE-NONE"
+        }
+      ]
+    },
+    {
+      "category": "rice-staples",
+      "name": "Basmati Rice",
+      "slug": "basmati-rice",
+      "description": "Premium long-grain basmati rice.",
+      "cooking_tips": [
+        "Soak for 30 minutes",
+        "Cook with 1.5 cups water per cup rice",
+        "Fluff with fork when done"
+      ],
+      "price_per_kg": 3.99,
+      "images": [
+        "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "India",
+      "badges": ["Premium", "Long Grain"],
+      "min_order_weight": "1kg",
+      "featured": false,
+      "variants": [
+        {
+          "weight": "1kg",
+          "cut": null,
+          "marinade": "None",
+          "stock": 100,
+          "sku": "BR-1KG-NONE-NONE"
+        },
+        {
+          "weight": "5kg",
+          "cut": null,
+          "marinade": "None",
+          "stock": 50,
+          "sku": "BR-5KG-NONE-NONE"
+        }
+      ]
+    },
+    {
+      "category": "frozen-foods",
+      "name": "Samosas",
+      "slug": "samosas",
+      "description": "Crispy vegetable samosas ready to fry.",
+      "cooking_tips": [
+        "Deep fry until golden",
+        "Serve with chutney",
+        "Perfect as appetizer"
+      ],
+      "price_per_kg": 8.99,
+      "images": [
+        "https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg"
+      ],
+      "halal_flag": true,
+      "origin": "UK",
+      "badges": ["Vegetarian", "Ready to Fry"],
+      "min_order_weight": "12 pieces",
+      "featured": true,
+      "variants": [
+        {
+          "weight": "12 pieces",
+          "cut": null,
+          "marinade": "None",
+          "stock": 25,
+          "sku": "SAM-12PC-NONE-NONE"
+        },
+        {
+          "weight": "24 pieces",
+          "cut": null,
+          "marinade": "None",
+          "stock": 15,
+          "sku": "SAM-24PC-NONE-NONE"
+        }
+      ]
+    }
+  ],
+  "delivery_zones": [
+    {
+      "postcode_prefix": "EH7",
+      "zone_name": "Local",
+      "delivery_fee": 2.99,
+      "minimum_order": 20.00,
+      "free_delivery_over": 60.00,
+      "is_active": true
+    },
+    {
+      "postcode_prefix": "EH6",
+      "zone_name": "Local",
+      "delivery_fee": 2.99,
+      "minimum_order": 20.00,
+      "free_delivery_over": 60.00,
+      "is_active": true
+    },
+    {
+      "postcode_prefix": "EH1",
+      "zone_name": "Extended",
+      "delivery_fee": 4.99,
+      "minimum_order": 25.00,
+      "free_delivery_over": 70.00,
+      "is_active": true
+    },
+    {
+      "postcode_prefix": "EH2",
+      "zone_name": "Extended",
+      "delivery_fee": 4.99,
+      "minimum_order": 25.00,
+      "free_delivery_over": 70.00,
+      "is_active": true
+    }
+  ],
+  "site_settings": {
+    "store_info": {
+      "name": "Rajah's Supermarket",
+      "address": "33 Albert Street, Edinburgh, United Kingdom, EH7 5LH",
+      "phone": "+44 131 555 1619",
+      "email": "rajahs_supermarket@hotmail.co.uk",
+      "instagram": "rajahs_supermarket",
+      "facebook": "Rajah's Supermarket"
+    },
+    "opening_hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 6:00 PM"
+    },
+    "delivery_cutoff": {
+      "same_day": "2:00 PM",
+      "collection": "1 hour"
+    }
+  }
+}
